@@ -1,0 +1,121 @@
+<html>
+    <head>
+        <title>Tugas WEB</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="img/icon.png">
+    </head>
+    <body>
+        <!-- NAVBAR -->
+        <div class="fixed-top">
+            <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+                <a class="navbar-brand" href="landingpage.html">
+                    <img src="img/r1.png" class="rounded d-inline-block align-top border border-white" width="30" height="30" alt="logo"> Rozian Firmansyah
+                  </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                          <a class="nav-link" href="tugasweb.html">Home </a>
+                        </li>
+                        <li class="nav-item active">
+                          <a class="nav-link" href="table.html">Table <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="form.html"> Form </a>
+                        </li>
+                      </ul>
+                      <div class="dropdown">
+                          <button class="btn btn-outline-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Pilih Bahasa
+                              </button>
+                              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Bahasa Indonesia</a>
+                                <a class="dropdown-item" href="#">English</a>
+                              </div>
+                            </div>
+                    </div>
+                  </nav>
+                </div>
+
+            <!-- TITLE -->
+            <div class="judul">
+            <h1 id="tengah">MEMBUAT TABLE</h1>
+            </div>
+
+            <!-- TABLE -->
+            <div class="table2">
+            <table class="table table-bordered">
+                    <thead class="thead-dark">
+                      <tr>
+                        <th colspan="10" id="tengah">Data Mahasiswa Baru</th>
+                      </tr>
+                    </thead>
+                    <tbody id="tengah">
+                      <tr>
+                        <td rowspan="2">No</td>
+                        <td rowspan="2">Nama</td>
+                        <td rowspan="2">Alamat</td>
+                        <td colspan="3">Tugas</td>
+                        <td colspan="3">Kuis</td>
+                        <td rowspan="2">Total Nilai</td>
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Anna</td>
+                        <td>Surabaya</td>
+                        <td>70</td>
+                        <td>80</td>
+                        <td>60</td>
+                        <td>90</td>
+                        <td>90</td>
+                        <td>80</td>
+                        <td>B</td>
+                      </tr>
+                      <tr>
+                            <th scope="row">2</th>
+                            <td>Sherly</td>
+                            <td>Semarang</td>
+                            <td>90</td>
+                            <td>100</td>
+                            <td>90</td>
+                            <td>90</td>
+                            <td>90</td>
+                            <td>80</td>
+                            <td>A</td>
+                          </tr>
+                          <tr>
+                                <th scope="row">3</th>
+                                <td>Rangga</td>
+                                <td>Pekanbaru</td>
+                                <td>50</td>
+                                <td>60</td>
+                                <td>80</td>
+                                <td>90</td>
+                                <td>90</td>
+                                <td>80</td>
+                                <td>C</td>
+                              </tr>
+                    </tbody>
+                  </table>
+                </div>
+    <!-- FOOTER -->
+    <footer class="fixed-bottom bg-dark">
+      <div class="tengah teksfooter">
+        <p>&copy;Copyright 2019</p>
+      </div>
+    </footer>
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
